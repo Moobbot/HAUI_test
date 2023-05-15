@@ -1,0 +1,80 @@
+.fs-35 {
+  font-size: 35px;
+}
+
+.title-style-1 {
+  text-transform: uppercase;
+}
+
+.p-12 {
+  padding: 12px;
+}
+
+.br-top-4 {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/*  */
+.form-wrap {
+  background-color: var(--bg-light);
+}
+
+.login-form {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, .2), 0 12px 17px 2px rgba(0, 0, 0, .14), 0 5px 22px 4px rgba(0, 0, 0, .12) !important;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.title-form {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-outline {
+  padding: 0 16px;
+}
+
+.div-input {
+  position: relative;
+  display: flex;
+  padding: 10px 20px 10px 0;
+  border-bottom: 1px solid var(--gray);
+}
+
+.div-input span {
+  color: var(--gray);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.div-input input {
+  padding: 0 10px;
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.div-input input,
+.div-input input:hover,
+.div-input input:focus,
+.div-input input:focus-visible,
+.div-input input:active {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.div-input .btn-showpass {
+  font-size: 25px;
+  margin-right: 0;
+}
