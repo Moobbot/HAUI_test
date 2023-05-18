@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
+  <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <link rel="stylesheet" href="./bootstrap/bootstrap-5.0.2/css/bootstrap.css">
   <link rel="stylesheet" href="./bootstrap/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/css/template.css">
@@ -14,48 +15,54 @@
 
 <body>
   <div class="main">
-    <div class="main-container container">
+    <div class="main-container">
       <div class="container-inner">
-        <div class="d-flex flex-column justify-content-center align-items-center mb-4 mt-5">
-          <h1 class="fs-35 title-style-1 text-primary">HỆ THỐNG HÀNH CHÍNH ĐIỆN TỬ</h1>
-          <strong class="fs-35 text-primary">Đại học Công nghiệp Hà Nội</strong>
-          <img src="./assets/icons/logo.png" alt="">
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-sm-7 col-md-7 col-12">
-            <div class="form-wrap">
-              <form class="login-form">
-                <div class="form-outline bg-primary br-top-4 mb-4">
-                  <strong class="text-white text-center py-2 title-form">Đăng nhập</strong>
+        <section class="section-login">
+          <div class="section-container container">
+            <div class="d-flex flex-column justify-content-center align-items-center mb-4 mt-5">
+              <h1 class="fs-35 title-style-1 text-primary">HỆ THỐNG HÀNH CHÍNH ĐIỆN TỬ</h1>
+              <strong class="fs-35 text-primary">Đại học Công nghiệp Hà Nội</strong>
+              <img src="./assets/image/logo.png" alt="">
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-sm-7 col-md-7 col-12">
+                <div class="form-wrap">
+                  <form class="login-form">
+                    <div class="form-outline bg-primary br-top-4 mb-4">
+                      <strong class="text-white text-center py-2 title-form">Đăng nhập</strong>
+                    </div>
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <div class="div-input">
+                        <span><i class="bi bi-person-fill"></i></span>
+                        <input type="email" id="formAccount" class="form-control" placeholder="" name="email"
+                          autofocus="">
+                      </div>
+                    </div>
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                      <div class="div-input">
+                        <span><i class="bi bi-lock-fill"></i></span>
+                        <input type="password" id="formPassword" class="form-control" placeholder="" name="password">
+                        <span class="btn-showpass"><i class="bi bi-eye-slash"></i></span>
+                      </div>
+                    </div>
+                    <!-- Submit button -->
+                    <div class="form-outline d-flex justify-content-end">
+                      <button type="button" class="btn btn-primary btn-block mb-4">Đăng nhập</button>
+                    </div>
+                  </form>
                 </div>
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                  <div class="div-input">
-                    <span><i class="bi bi-person-fill"></i></span>
-                    <input type="email" id="formAccount" class="form-control" placeholder="" name="email" autofocus="">
-                  </div>
-                </div>
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                  <div class="div-input">
-                    <span><i class="bi bi-lock-fill"></i></span>
-                    <input type="password" id="formPassword" class="form-control" placeholder="" name="password">
-                    <span class="btn-showpass"><i class="bi bi-eye-slash"></i></span>
-                  </div>
-                </div>
-                <!-- Submit button -->
-                <div class="form-outline d-flex justify-content-end">
-                  <button type="button" class="btn btn-primary btn-block mb-4">Đăng nhập</button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   </div>
 </body>
 <script src="./jquery/dist/jquery.js"></script>
 <script src="./bootstrap/bootstrap-5.0.2/js/bootstrap.js"></script>
+<script src="./assets/js/app.js"></script>
 
 </html>

@@ -2,35 +2,35 @@
 
 @font-face {
     font-family: "Roboto";
-    src: local("Roboto Light"), url("./font/Roboto-Light.woff2") format("woff2");
+    src: local("Roboto Light"), url("../font/Roboto-Light.woff2") format("woff2");
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: local("Roboto Regular"), url("./font/Roboto-Regular.woff2") format("woff2");
+    src: local("Roboto Regular"), url("../font/Roboto-Regular.woff2") format("woff2");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: local("Roboto Medium"), url("./font/Roboto-Medium.woff2") format("woff2");
+    src: local("Roboto Medium"), url("../font/Roboto-Medium.woff2") format("woff2");
     font-style: normal;
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: local("Roboto Bold"), url("./font/Roboto-Bold.woff2") format("woff2");
+    src: local("Roboto Bold"), url("../font/Roboto-Bold.woff2") format("woff2");
     font-style: normal;
     font-weight: 600;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: local("Roboto Black"), url("./font/Roboto-Black.woff2") format("woff2");
+    src: local("Roboto Black"), url("../font/Roboto-Black.woff2") format("woff2");
     font-style: italic;
     font-weight: 700;
 }
@@ -95,8 +95,8 @@ html {
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-text-size-adjust: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
     word-break: normal;
     -moz-tab-size: 4;
     -o-tab-size: 4;
@@ -171,7 +171,6 @@ p {
 }
 
 session,
-nav,
 footer,
 article {
     overflow: hidden;

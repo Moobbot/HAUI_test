@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang chủ</title>
+  <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="stylesheet" href="./plugin/bootstrap/bootstrap-5.0.2/css/bootstrap.css">
+  <link rel="stylesheet" href="./plugin/bootstrap/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/template.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="main-container">
+      <div class="container-inner">
+        <header class="header">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img class src="./assets/image/logo.png" alt="Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <!-- <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li> -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-calendar3"></i> Lịch công tác
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-calendar2-event"></i> Lịch công tác tuần
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-calendar2-event"></i> Lịch lãnh đạo
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-calendar2-event"></i> Lịch nhà trường
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-calendar2-event"></i> Lịch khoa/phòng
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-calendar2-event"></i> Lịch cá nhân
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="dd-2" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-rss"></i> Trao đổi thông tin
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dd-2">
+                      <li>
+                        <a class="dropdown-item fw-bold" href="#">
+                          <i class="bi bi-megaphone"></i> Thông báo <span class="number-notify">(17)</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-chat-left-dots"></i> Chat
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-envelope"></i> Thư nội bộ
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="dd-3" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-rss"></i> Công việc
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dd-3">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-building"></i> Công việc theo dự án
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-building"></i> Công việc nội bộ đơn vị
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="dd-3" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-file-earmark-text"></i> Văn bản
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dd-3">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-journal-arrow-down"></i> Văn bản đến
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-pencil-square"></i> Dự thảo văn bản
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-journal-arrow-up"></i> Phát hành văn bản
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-file-bar-graph"></i> Báo cáo thống kê
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="dd-3" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-database"></i> Tiện ích
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dd-3">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-person-fill"></i> Người dùng
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-people-fill"></i> Nhóm người dùng
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-bank"></i> Đơn vị trong trường
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-buildings"></i> Đơn vị ngoài trường
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="dd-3" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      <i class="bi bi-gear-fill"></i> Quản trị hệ thống
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dd-3">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-person-fill"></i> Quyền
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-shield-lock-fill"></i> Nhóm quyền
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-person-video"></i> Phòng họp
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="bi bi-gear-fill"></i> Log hệ thống
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <div>
+                  <ul class="d-flex">
+                    <li>
+                      <div class="btn-group">
+                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                          aria-expanded="false"><i class="bi bi-bell-fill"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                          <li><a class="dropdown-item" type="button">Action</a></li>
+                          <li><a class="dropdown-item" type="button">Another action</a></li>
+                          <li><a class="dropdown-item" type="button">Something else here</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="dropdown text-end">
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                          data-bs-toggle="dropdown" aria-expanded="true">
+                          <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1"
+                          data-popper-placement="bottom-end"
+                          style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-112px, 34px);">
+                          <li><a class="dropdown-item" href="#">New project...</a></li>
+                          <li><a class="dropdown-item" href="#">Settings</a></li>
+                          <li><a class="dropdown-item" href="#">Profile</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./plugin/jquery/dist/jquery.js"></script>
+<script src="./plugin/popper.min.js"></script>
+<script src="./plugin/bootstrap/bootstrap-5.0.2/js/bootstrap.js"></script>
+<script src="./assets/js/app.js"></script>
+
+</html>
